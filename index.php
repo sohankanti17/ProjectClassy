@@ -1,6 +1,7 @@
 <?php ?>
 
-<html>
+<!doctype html>
+<html lang="en">
     <head>
         // Title for the page
         <title>Home</title>
