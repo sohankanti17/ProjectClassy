@@ -1,5 +1,3 @@
-<!-- All common stylings will go here -->
-
 <link rel="shortcut icon" href="LOGO" type="image/x-icon">
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
