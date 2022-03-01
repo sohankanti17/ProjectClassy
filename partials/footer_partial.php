@@ -1,4 +1,4 @@
-// Footer html will go here
+<!-- Footer html will go here -->
 
 <footer>
     

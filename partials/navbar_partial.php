@@ -1,4 +1,9 @@
-// Navbar html will go here
+<!-- Navbar html will go here -->
+
+<link
+      rel="stylesheet"
+      href="assets\css\styles.css"
+    />
 
 <nav>
 <div class="container">
@@ -22,3 +27,5 @@
 
 </div>
 </nav>
+
+<script src="assets\js\script.js"></script>

@@ -12,7 +12,7 @@
 }
 
 .container{
-    max-width: 1280px;
+    max-width: 1700px;
     margin: 0 auto;
 
     display:flex;
@@ -33,7 +33,7 @@ nav{
 }
 h1{
     color: white;
-    font-size: 28px;
+    font-size: 22px;
     font-weight: 900;
     letter-spacing: 2px;
     text-transform: uppercase;
@@ -119,7 +119,7 @@ h1{
     background-color: var(--primary);
 }
 
-@media(min-width:1500px){
+@media(min-width:1280px){
     .burger {
         display: none;
     }
