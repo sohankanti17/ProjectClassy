@@ -20,31 +20,30 @@
         <!-- Actual page content starts from here -->
 
 
-        <div class="px-4 py-5 my-5 text-center">
-        <h1 class="display-5 mb-4 fw-bold">
-            Helped over 5,000+ Entrepreneurs <br />to launch their startups
-        </h1>
-        <div class="col-lg-6 mx-auto">
-            <p class="lead mb-4">
-            Quickly design and customize responsive mobile-first sites with Bootstrap,
-            the world’s most popular front-end open source toolkit, featuring Sass
-            variables and mixins, responsive grid system, extensive prebuilt
-            components, and powerful JavaScript plugins.
-            </p>
-            <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
-            <button type="button" class="btn btn-primary btn-lg px-4 gap-3">
-                Our Services
-            </button>
-            <button type="button" class="btn btn-outline-secondary btn-lg px-4">
-                About Us
-            </button>
+        <div class="fluid-container d-flex justify-content-center align-items-center" style="height:95vh">
+            <div class="container col-lg-6 px-4 mx-auto text-center">
+
+                <h1 class="display-6 fw-bold"> Helped over 5,000+ Entrepreneurs to launch their startups</h1><br>
+                <p class="lead mb-4">
+                    Marvel's The Avengers classified under the name Marvel Avengers Assemble in the United Kingdom 
+                    and Ireland,or simply The Avengers, is a 2012 American superhero film based on the Marvel Comics
+                    superhero team of the same name. Produced by Marvel Studios and distributed by Walt Disney Studios Motion
+                    Pictures, it is the sixth film in the Marvel Cinematic Universe.
+                </p>
+
+                <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+
+                    <button type="button" class="btn btn-primary btn-lg px-4 gap-3">Our Services</button>
+                    <button type="button" class="btn btn-outline-secondary btn-lg px-4">About Us</button>
+
+                </div>
             </div>
         </div>
-        </div>
+
 
         <div class="container col-xxl-8 px-4 py-5">
         <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
-            <div class="col-10 col-sm-8 col-lg-6">
+            <div class="co0l-10 col-sm-8 col-lg-6">
             <img
                 src="bootstrap-themes.png"
                 class="d-block mx-lg-auto img-fluid"
@@ -75,6 +74,7 @@
             </div>
         </div>
         </div>
+
 
 
 
