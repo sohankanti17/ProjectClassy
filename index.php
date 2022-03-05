@@ -41,46 +41,110 @@
         </div>
 
 
-        <div class="container col-xxl-8 px-4 py-5">
-        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
-            <div class="co0l-10 col-sm-8 col-lg-6">
-            <img
-                src="bootstrap-themes.png"
-                class="d-block mx-lg-auto img-fluid"
-                alt="Bootstrap Themes"
-                width="700"
-                height="500"
-                loading="lazy"
-            />
+<div class="fluid-container bg-primary">
+    <div class="container">
+        <h1 class="display-4 fw-normal text-center pt-2">Pricing</h1><br>
+        <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+
+            <div class="col">
+                <div class="card mb-4 rounded-3 shadow-sm">
+                    <div class="card-header py-3">
+                        <h4 class="my-0 fw-normal">Pro</h4>
+                    </div>
+                    <div class="card-body">
+                        <h1 class="card-title pricing-card-title">$15<small class="text-muted fw-light">/mo</small></h1>
+                        <ul class="list-unstyled mt-3 mb-4">
+                            <li>20 users included</li>
+                            <li>10 GB of storage</li>
+                            <li>Priority email support</li>
+                            <li>Help center access</li>
+                        </ul>
+                        <button type="button" class="w-100 btn btn-lg btn-primary">Get started</button>
+                    </div>
+                </div>
             </div>
-            <div class="col-lg-6">
-            <h1 class="display-5 fw-bold lh-1 mb-3">
-                Responsive left-aligned hero with image
-            </h1>
-            <p class="lead">
-                Quickly design and customize responsive mobile-first sites with
-                Bootstrap, the world’s most popular front-end open source toolkit,
-                featuring Sass variables and mixins, responsive grid system, extensive
-                prebuilt components, and powerful JavaScript plugins.
-            </p>
-            <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-                <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">
-                Primary
-                </button>
-                <button type="button" class="btn btn-outline-secondary btn-lg px-4">
-                Default
-                </button>
+            <div class="col">
+                <div class="card mb-4 rounded-3 shadow-sm">
+                    <div class="card-header py-3">
+                        <h4 class="my-0 fw-normal">Pro</h4>
+                    </div>
+                    <div class="card-body">
+                        <h1 class="card-title pricing-card-title">$15<small class="text-muted fw-light">/mo</small></h1>
+                        <ul class="list-unstyled mt-3 mb-4">
+                            <li>20 users included</li>
+                            <li>10 GB of storage</li>
+                            <li>Priority email support</li>
+                            <li>Help center access</li>
+                        </ul>
+                        <button type="button" class="w-100 btn btn-lg btn-primary">Get started</button>
+                    </div>
+                </div>
             </div>
+            <div class="col">
+                <div class="card mb-4 rounded-3 shadow-sm">
+                    <div class="card-header py-3">
+                        <h4 class="my-0 fw-normal">Pro</h4>
+                    </div>
+                    <div class="card-body">
+                        <h1 class="card-title pricing-card-title">$15<small class="text-muted fw-light">/mo</small></h1>
+                        <ul class="list-unstyled mt-3 mb-4">
+                            <li>20 users included</li>
+                            <li>10 GB of storage</li>
+                            <li>Priority email support</li>
+                            <li>Help center access</li>
+                        </ul>
+                        <button type="button" class="w-100 btn btn-lg btn-primary">Get started</button>
+                    </div>
+                </div>
             </div>
         </div>
+    </div>
+</div>
+
+
+<div class="container col-10 px-4 py-5">
+    <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+        <div class="col-10 col-sm-8 col-lg-6">
+            <img src="assets\images\Why-choose-us.gif" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes"
+                width="777" height="777" loading="lazy">
         </div>
-
-
-
-
-
-
+        <div class="col-lg-6">
+            <h2>Why people choose us!</h2><br>
+            <h6>No Hidden Charges</h6>
+            <p>Legal Salah has a strict policy in place regarding transparent pricing. All our prices are inclusive of
+                all services required.</p><br>
+            <h6>100% Money Back Guarantee</h6>
+            <p>100% Money-Back Guarantee if projects do not complete within the prescribed timeline.</p><br>
+            <h6>Easy EMI Options</h6>
+            <p>Get Easy EMI option through all Debit and Credit OR other payment gateway options.</p><br>
+            <h6>24*7 Customer Support</h6>
+            <p>We at Legal Salah Provides you excellent after sales support through Call.</p>
         </div>
+    </div>
+</div>
+</div>
+
+</div>
+
+
+<div class="fluid-container bg-secondary">
+    <img src="" alt="">
+    <div class="container bg-primary" style="height:50vh">
+        <h3 class="d-flex justify-content-center align-content-center">Brand Highlights</h3>
+
+
+    </div>
+
+</div>
+
+
+
+
+
+
+
+
+
 
         <!-- Footer -->
         <?php require_once('./partials/footer_partial.php') ?>
