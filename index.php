@@ -22,7 +22,7 @@
 
 
         <div class=" fluid-container" style="height:95vh; background-image:url('.\\assets\\images\\bg1.png');background-repeat: no-repeat;
-    background-size: cover; padding-top:250px">
+    background-size: cover;">
             <!-- <img src="./assets\images\bg1.png" alt="" style="height:200px"> -->
             <div class="container col-lg-6 px-4 mx-auto text-center ">
                 
@@ -43,66 +43,290 @@
             </div>
         </div>
 
-
-<div class="fluid-container bg-primary">
-    <div class="container">
-        <h1 class="display-4 fw-normal text-center pt-2">Pricing</h1><br>
-        <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
-
-            <div class="col">
-                <div class="card mb-4 rounded-3 shadow-sm">
-                    <div class="card-header py-3">
-                        <h4 class="my-0 fw-normal">Pro</h4>
-                    </div>
-                    <div class="card-body">
-                        <h1 class="card-title pricing-card-title">$15<small class="text-muted fw-light">/mo</small></h1>
-                        <ul class="list-unstyled mt-3 mb-4">
-                            <li>20 users included</li>
-                            <li>10 GB of storage</li>
-                            <li>Priority email support</li>
-                            <li>Help center access</li>
-                        </ul>
-                        <button type="button" class="w-100 btn btn-lg btn-primary">Get started</button>
+        <div class="container py-5">
+            <h1 class="text-center mb-5 fw-bold">Our Services</h1>
+            <ul class="nav nav-pills nav-fill mb-5" id="Pricing_Tab" role="tablist">
+                <li class="nav-item m-2" role="presentation">
+                    <button class="nav-link active border border-primary" id="tab-Pricing_Tab_1" data-bs-toggle="tab" data-bs-target="#Pricing_Tab_1" type="button" role="tab" aria-controls="Pricing_Tab_1" aria-selected="true">
+                        Company registration
+                    </button>
+                </li>
+                <li class="nav-item m-2" role="presentation">
+                    <button class="nav-link border border-primary" id="tab-Pricing_Tab_2" data-bs-toggle="tab" data-bs-target="#Pricing_Tab_2" type="button" role="tab" aria-controls="Pricing_Tab_2" aria-selected="false">
+                        Trademark registration    
+                    </button>
+                </li>
+                <li class="nav-item m-2" role="presentation">
+                    <button class="nav-link border border-primary" id="tab-Pricing_Tab_3" data-bs-toggle="tab" data-bs-target="#Pricing_Tab_3" type="button" role="tab" aria-controls="Pricing_Tab_3" aria-selected="false">
+                        Govt. licenses &amp; registrations
+                    </button>
+                </li>
+                <li class="nav-item m-2" role="presentation">
+                    <button class="nav-link border border-primary" id="tab-Pricing_Tab_4" data-bs-toggle="tab" data-bs-target="#Pricing_Tab_4" type="button" role="tab" aria-controls="Pricing_Tab_4" aria-selected="false">
+                        Tax registrations
+                    </button>
+                </li>
+            </ul>
+            <div class="tab-content container" id="Pricing_Tab_Content">
+                <div class="tab-pane fade show active bg-success" id="Pricing_Tab_1" role="tabpanel" aria-labelledby="Pricing_Tab_1-tab">
+                    <div class="row">
+                        <div class="col-sm-12 col-md-6 col-lg-3">
+                            <div class="card mb-4 rounded-3 shadow-lg">
+                                <div class="card-header text-center py-3">
+                                    <p class="fw-bold m-0">Private limited company</p>
+                                </div>
+                                <div class="card-body">
+                                    <small class="text-muted fw-light">Starting</small>
+                                    <h3 class="card-title">&#8377;7999<small class="text-muted fw-light">*</small></h3>
+                                    <p class="my-4 text-muted small">
+                                        The default option for start-ups and growing businesses as only private limited companies can raise venture capital. This type of company offers limited liability for its shareholders with certain restrictions placed on the ownership. Private limited company registration, directors may be different from shareholders.
+                                    </p>
+                                    <a class="w-100 btn btn-md btn-outline-primary">Start now</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-6 col-lg-3">
+                            <div class="card mb-4 rounded-3 shadow-lg">
+                                <div class="card-header text-center py-3">
+                                    <p class="fw-bold m-0">Private limited company</p>
+                                </div>
+                                <div class="card-body">
+                                    <small class="text-muted fw-light">Starting</small>
+                                    <h3 class="card-title">&#8377;7999<small class="text-muted fw-light">*</small></h3>
+                                    <p class="my-4 text-muted small">
+                                        The default option for start-ups and growing businesses as only private limited companies can raise venture capital. This type of company offers limited liability for its shareholders with certain restrictions placed on the ownership. Private limited company registration, directors may be different from shareholders.
+                                    </p>
+                                    <a class="w-100 btn btn-md btn-outline-primary">Start now</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-6 col-lg-3">
+                            <div class="card mb-4 rounded-3 shadow-lg">
+                                <div class="card-header text-center py-3">
+                                    <p class="fw-bold m-0">Private limited company</p>
+                                </div>
+                                <div class="card-body">
+                                    <small class="text-muted fw-light">Starting</small>
+                                    <h3 class="card-title">&#8377;7999<small class="text-muted fw-light">*</small></h3>
+                                    <p class="my-4 text-muted small">
+                                        The default option for start-ups and growing businesses as only private limited companies can raise venture capital. This type of company offers limited liability for its shareholders with certain restrictions placed on the ownership. Private limited company registration, directors may be different from shareholders.
+                                    </p>
+                                    <a class="w-100 btn btn-md btn-outline-primary">Start now</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-6 col-lg-3">
+                            <div class="card mb-4 rounded-3 shadow-lg">
+                                <div class="card-header text-center py-3">
+                                    <p class="fw-bold m-0">Private limited company</p>
+                                </div>
+                                <div class="card-body">
+                                    <small class="text-muted fw-light">Starting</small>
+                                    <h3 class="card-title">&#8377;7999<small class="text-muted fw-light">*</small></h3>
+                                    <p class="my-4 text-muted small">
+                                        The default option for start-ups and growing businesses as only private limited companies can raise venture capital. This type of company offers limited liability for its shareholders with certain restrictions placed on the ownership. Private limited company registration, directors may be different from shareholders.
+                                    </p>
+                                    <a class="w-100 btn btn-md btn-outline-primary">Start now</a>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="col">
-                <div class="card mb-4 rounded-3 shadow-sm">
-                    <div class="card-header py-3">
-                        <h4 class="my-0 fw-normal">Pro</h4>
-                    </div>
-                    <div class="card-body">
-                        <h1 class="card-title pricing-card-title">$15<small class="text-muted fw-light">/mo</small></h1>
-                        <ul class="list-unstyled mt-3 mb-4">
-                            <li>20 users included</li>
-                            <li>10 GB of storage</li>
-                            <li>Priority email support</li>
-                            <li>Help center access</li>
-                        </ul>
-                        <button type="button" class="w-100 btn btn-lg btn-primary">Get started</button>
+                <div class="tab-pane fade bg-primary" id="Pricing_Tab_2" role="tabpanel" aria-labelledby="Pricing_Tab_2-tab">
+                    <div class="row">
+                        <div class="col-sm-12 col-md-6 col-lg-3">
+                            <div class="card mb-4 rounded-3 shadow-lg">
+                                <div class="card-header text-center py-3">
+                                    <p class="fw-bold m-0">Private limited company</p>
+                                </div>
+                                <div class="card-body">
+                                    <small class="text-muted fw-light">Starting</small>
+                                    <h3 class="card-title">&#8377;7999<small class="text-muted fw-light">*</small></h3>
+                                    <p class="my-4 text-muted small">
+                                        The default option for start-ups and growing businesses as only private limited companies can raise venture capital. This type of company offers limited liability for its shareholders with certain restrictions placed on the ownership. Private limited company registration, directors may be different from shareholders.
+                                    </p>
+                                    <a class="w-100 btn btn-md btn-outline-primary">Start now</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-6 col-lg-3">
+                            <div class="card mb-4 rounded-3 shadow-lg">
+                                <div class="card-header text-center py-3">
+                                    <p class="fw-bold m-0">Private limited company</p>
+                                </div>
+                                <div class="card-body">
+                                    <small class="text-muted fw-light">Starting</small>
+                                    <h3 class="card-title">&#8377;7999<small class="text-muted fw-light">*</small></h3>
+                                    <p class="my-4 text-muted small">
+                                        The default option for start-ups and growing businesses as only private limited companies can raise venture capital. This type of company offers limited liability for its shareholders with certain restrictions placed on the ownership. Private limited company registration, directors may be different from shareholders.
+                                    </p>
+                                    <a class="w-100 btn btn-md btn-outline-primary">Start now</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-6 col-lg-3">
+                            <div class="card mb-4 rounded-3 shadow-lg">
+                                <div class="card-header text-center py-3">
+                                    <p class="fw-bold m-0">Private limited company</p>
+                                </div>
+                                <div class="card-body">
+                                    <small class="text-muted fw-light">Starting</small>
+                                    <h3 class="card-title">&#8377;7999<small class="text-muted fw-light">*</small></h3>
+                                    <p class="my-4 text-muted small">
+                                        The default option for start-ups and growing businesses as only private limited companies can raise venture capital. This type of company offers limited liability for its shareholders with certain restrictions placed on the ownership. Private limited company registration, directors may be different from shareholders.
+                                    </p>
+                                    <a class="w-100 btn btn-md btn-outline-primary">Start now</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-6 col-lg-3">
+                            <div class="card mb-4 rounded-3 shadow-lg">
+                                <div class="card-header text-center py-3">
+                                    <p class="fw-bold m-0">Private limited company</p>
+                                </div>
+                                <div class="card-body">
+                                    <small class="text-muted fw-light">Starting</small>
+                                    <h3 class="card-title">&#8377;7999<small class="text-muted fw-light">*</small></h3>
+                                    <p class="my-4 text-muted small">
+                                        The default option for start-ups and growing businesses as only private limited companies can raise venture capital. This type of company offers limited liability for its shareholders with certain restrictions placed on the ownership. Private limited company registration, directors may be different from shareholders.
+                                    </p>
+                                    <a class="w-100 btn btn-md btn-outline-primary">Start now</a>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="col">
-                <div class="card mb-4 rounded-3 shadow-sm">
-                    <div class="card-header py-3">
-                        <h4 class="my-0 fw-normal">Pro</h4>
+                <div class="tab-pane fade bg-warning" id="Pricing_Tab_3" role="tabpanel" aria-labelledby="Pricing_Tab_3-tab">
+                    <div class="row">
+                        <div class="col-sm-12 col-md-6 col-lg-3">
+                            <div class="card mb-4 rounded-3 shadow-lg">
+                                <div class="card-header text-center py-3">
+                                    <p class="fw-bold m-0">Private limited company</p>
+                                </div>
+                                <div class="card-body">
+                                    <small class="text-muted fw-light">Starting</small>
+                                    <h3 class="card-title">&#8377;7999<small class="text-muted fw-light">*</small></h3>
+                                    <p class="my-4 text-muted small">
+                                        The default option for start-ups and growing businesses as only private limited companies can raise venture capital. This type of company offers limited liability for its shareholders with certain restrictions placed on the ownership. Private limited company registration, directors may be different from shareholders.
+                                    </p>
+                                    <a class="w-100 btn btn-md btn-outline-primary">Start now</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-6 col-lg-3">
+                            <div class="card mb-4 rounded-3 shadow-lg">
+                                <div class="card-header text-center py-3">
+                                    <p class="fw-bold m-0">Private limited company</p>
+                                </div>
+                                <div class="card-body">
+                                    <small class="text-muted fw-light">Starting</small>
+                                    <h3 class="card-title">&#8377;7999<small class="text-muted fw-light">*</small></h3>
+                                    <p class="my-4 text-muted small">
+                                        The default option for start-ups and growing businesses as only private limited companies can raise venture capital. This type of company offers limited liability for its shareholders with certain restrictions placed on the ownership. Private limited company registration, directors may be different from shareholders.
+                                    </p>
+                                    <a class="w-100 btn btn-md btn-outline-primary">Start now</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-6 col-lg-3">
+                            <div class="card mb-4 rounded-3 shadow-lg">
+                                <div class="card-header text-center py-3">
+                                    <p class="fw-bold m-0">Private limited company</p>
+                                </div>
+                                <div class="card-body">
+                                    <small class="text-muted fw-light">Starting</small>
+                                    <h3 class="card-title">&#8377;7999<small class="text-muted fw-light">*</small></h3>
+                                    <p class="my-4 text-muted small">
+                                        The default option for start-ups and growing businesses as only private limited companies can raise venture capital. This type of company offers limited liability for its shareholders with certain restrictions placed on the ownership. Private limited company registration, directors may be different from shareholders.
+                                    </p>
+                                    <a class="w-100 btn btn-md btn-outline-primary">Start now</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-6 col-lg-3">
+                            <div class="card mb-4 rounded-3 shadow-lg">
+                                <div class="card-header text-center py-3">
+                                    <p class="fw-bold m-0">Private limited company</p>
+                                </div>
+                                <div class="card-body">
+                                    <small class="text-muted fw-light">Starting</small>
+                                    <h3 class="card-title">&#8377;7999<small class="text-muted fw-light">*</small></h3>
+                                    <p class="my-4 text-muted small">
+                                        The default option for start-ups and growing businesses as only private limited companies can raise venture capital. This type of company offers limited liability for its shareholders with certain restrictions placed on the ownership. Private limited company registration, directors may be different from shareholders.
+                                    </p>
+                                    <a class="w-100 btn btn-md btn-outline-primary">Start now</a>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="card-body">
-                        <h1 class="card-title pricing-card-title">$15<small class="text-muted fw-light">/mo</small></h1>
-                        <ul class="list-unstyled mt-3 mb-4">
-                            <li>20 users included</li>
-                            <li>10 GB of storage</li>
-                            <li>Priority email support</li>
-                            <li>Help center access</li>
-                        </ul>
-                        <button type="button" class="w-100 btn btn-lg btn-primary">Get started</button>
+                </div>
+                <div class="tab-pane fade bg-secondary" id="Pricing_Tab_4" role="tabpanel" aria-labelledby="Pricing_Tab_4-tab">
+                    <div class="row">
+                        <div class="col-sm-12 col-md-6 col-lg-3">
+                            <div class="card mb-4 rounded-3 shadow-lg">
+                                <div class="card-header text-center py-3">
+                                    <p class="fw-bold m-0">Private limited company</p>
+                                </div>
+                                <div class="card-body">
+                                    <small class="text-muted fw-light">Starting</small>
+                                    <h3 class="card-title">&#8377;7999<small class="text-muted fw-light">*</small></h3>
+                                    <p class="my-4 text-muted small">
+                                        The default option for start-ups and growing businesses as only private limited companies can raise venture capital. This type of company offers limited liability for its shareholders with certain restrictions placed on the ownership. Private limited company registration, directors may be different from shareholders.
+                                    </p>
+                                    <a class="w-100 btn btn-md btn-outline-primary">Start now</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-6 col-lg-3">
+                            <div class="card mb-4 rounded-3 shadow-lg">
+                                <div class="card-header text-center py-3">
+                                    <p class="fw-bold m-0">Private limited company</p>
+                                </div>
+                                <div class="card-body">
+                                    <small class="text-muted fw-light">Starting</small>
+                                    <h3 class="card-title">&#8377;7999<small class="text-muted fw-light">*</small></h3>
+                                    <p class="my-4 text-muted small">
+                                        The default option for start-ups and growing businesses as only private limited companies can raise venture capital. This type of company offers limited liability for its shareholders with certain restrictions placed on the ownership. Private limited company registration, directors may be different from shareholders.
+                                    </p>
+                                    <a class="w-100 btn btn-md btn-outline-primary">Start now</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-6 col-lg-3">
+                            <div class="card mb-4 rounded-3 shadow-lg">
+                                <div class="card-header text-center py-3">
+                                    <p class="fw-bold m-0">Private limited company</p>
+                                </div>
+                                <div class="card-body">
+                                    <small class="text-muted fw-light">Starting</small>
+                                    <h3 class="card-title">&#8377;7999<small class="text-muted fw-light">*</small></h3>
+                                    <p class="my-4 text-muted small">
+                                        The default option for start-ups and growing businesses as only private limited companies can raise venture capital. This type of company offers limited liability for its shareholders with certain restrictions placed on the ownership. Private limited company registration, directors may be different from shareholders.
+                                    </p>
+                                    <a class="w-100 btn btn-md btn-outline-primary">Start now</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-6 col-lg-3">
+                            <div class="card mb-4 rounded-3 shadow-lg">
+                                <div class="card-header text-center py-3">
+                                    <p class="fw-bold m-0">Private limited company</p>
+                                </div>
+                                <div class="card-body">
+                                    <small class="text-muted fw-light">Starting</small>
+                                    <h3 class="card-title">&#8377;7999<small class="text-muted fw-light">*</small></h3>
+                                    <p class="my-4 text-muted small">
+                                        The default option for start-ups and growing businesses as only private limited companies can raise venture capital. This type of company offers limited liability for its shareholders with certain restrictions placed on the ownership. Private limited company registration, directors may be different from shareholders.
+                                    </p>
+                                    <a class="w-100 btn btn-md btn-outline-primary">Start now</a>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-</div>
+
 
 
 <div class="container col-10 px-4 py-5">
