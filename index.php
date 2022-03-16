@@ -21,10 +21,9 @@
         <!-- Actual page content starts from here -->
 
 
-        <div class=" fluid-container" style="height:95vh; background-image:url('.\\assets\\images\\bg1.png');background-repeat: no-repeat;
-    background-size: cover;">
+        <div class=" fluid-container" style="height:95vh; background-image:url('.\\assets\\images\\bg1.png');background-repeat: no-repeat; background-size: cover;">
             <!-- <img src="./assets\images\bg1.png" alt="" style="height:200px"> -->
-            <div class="container col-lg-6 px-4 mx-auto text-center ">
+            <div class="container col-lg-6 px-4 mx-auto text-center " style="padding:12%">
                 
                 <h1 class="display-6 fw-bold "> Helped over 5,000+ Entrepreneurs to launch their startups</h1><br>
                 <p class="lead mb-4">
