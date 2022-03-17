@@ -35,8 +35,10 @@
 
                 <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
 
-                    <button type="button" class="btn btn-primary btn-lg px-4 gap-3">Our Services</button>
+                    <a class="btn btn-primary pc_resgistration.php" href="pc_resgistration.php" role="button">PC Registration</a>
+
                     <button type="button" class="btn btn-outline-secondary btn-lg px-4">About Us</button>
+
 
                 </div>
             </div>
