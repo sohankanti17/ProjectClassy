@@ -70,9 +70,52 @@
             </div>
         </div>
 
-        <div class="container bg-primary mt-3 d-flex justify-content-center align-items-center" style="height:300px">
-            <h1>Process flow</h1>
+        <!-- Process flow starts here -->
+
+        <div class="container mt-3 py-3">
+            <h2 class="fw-normal mb-3">Registration process flow</h2>
+            <p>With Classy Legal, it is refreshingly simple to register your company online. Here’s what you need to do:</p>
+            <div class="row">
+                <div class="col-md-2 col-sm-12 text-center py-2 shadow">
+                    <p class="text-muted m-0">1-2 hours</p>
+                    <span class="my-3 fs-2 fw-bold">1</span>
+                    <p class="fw-bold">Select package</p>
+                    <p class="m-0 fw-light lh-sm text-muted">Start by selecting the appropriate one, fill out the required forms, or simply speak to our experts online for assistance.</p>
+                </div>
+                <div class="col-md-2 col-sm-12 text-center py-2 shadow">
+                    <p class="text-muted m-0">2 working days</p>
+                    <span class="my-3 fs-2 fw-bold">2</span>
+                    <p class="fw-bold">Apply for MOA</p>
+                    <p class="m-0 fw-light lh-sm text-muted">We will help you apply for the MoA after obtaining digital signatures and will generate a link to complete eKYC verification.</p>
+                </div>
+                <div class="col-md-2 col-sm-12 text-center py-2 shadow">
+                    <p class="text-muted m-0">2 working days</p>
+                    <span class="my-3 fs-2 fw-bold">3</span>
+                    <p class="fw-bold lh-sm">Get your name approved</p>
+                    <p class="m-0 fw-light lh-sm text-muted">We will help you identify unique names, and get them approved by filing the RUN form.We will help you identify unique names, and get them approved by filing the RUN form.</p>
+                </div>
+                <div class="col-md-2 col-sm-12 text-center py-2 shadow">
+                    <p class="text-muted m-0">2 working days</p>
+                    <span class="my-3 fs-2 fw-bold">4</span>
+                    <p class="fw-bold">Fill Spice 32 form</p>
+                    <p class="m-0 fw-light lh-sm text-muted">We will help you to submit the Spice 32form with the MCA.</p>
+                </div>
+                <div class="col-md-2 col-sm-12 text-center py-2 shadow">
+                    <p class="text-muted m-0">2-3 working days</p>
+                    <span class="my-3 fs-2 fw-bold">5</span>
+                    <p class="fw-bold lh-sm">Get company incorporation, PAN &amp; TAN generated</p>
+                    <p class="m-0 fw-light lh-sm text-muted">We will help you fill out the Incorporation Certificate. The Ministry of Corporate Affairs will issue your PAN and TAN.</p>
+                </div>
+                <div class="col-md-2 col-sm-12 text-center py-2 shadow">
+                    <p class="text-muted m-0">3-4 working days</p>
+                    <span class="my-3 fs-2 fw-bold">6</span>
+                    <p class="fw-bold lh-sm">Obtain documents for GST registration</p>
+                    <p class="m-0 fw-light lh-sm text-muted">We will obtain all the documents and will file for the GST registration.</p>
+                </div>
+            </div>
         </div>
+
+        <!-- Process flow ends here -->
 
         <nav class="navbar navbar-expand-md navbar-dark bg-danger mt-3">
         <div class="container-fluid">
@@ -172,8 +215,25 @@
             </div>
         </div>
 
-        <div class="container bg-danger mt-3 d-flex justify-content-center align-items-center" style="height:300px">
-            <h1>Advantages & Distadvantages - Written in a table form </h1>
+        <div class="container mt-3 py-3">
+            <h2 class="fw-normal my-4 py-2">Advantages & Disadvantages of Private Company Registration</h2>
+            <div class="row">
+                <div class="col-sm-12 col-md-6">
+                    <h4 class="fw-normal mb-3">Advantages of Pvt Co. Registration</h4>
+                    <p><i class="fa fa-sack-dollar fa-2x pe-2"></i>No minimum capital</p>
+                    <p><i class="fa fa-house-chimney-window fa-2x pe-2"></i>Secure personal assets</p>
+                    <p><i class="fa fa-circle-minus fa-2x pe-2"></i>Best way to start business in India</p>
+                    <p><i class="fa fa-indian-rupee-sign fa-2x pe-2"></i>Raise funding whenever needed</p>
+                </div>
+                
+                <div class="col-sm-12 col-md-6">
+                    <h4 class="fw-normal mb-3">Disadvantages of Pvt Co. Registration</h4>
+                    <p><i class="fa fa-sack-dollar fa-2x pe-2"></i>Cannot accept deposits</p>
+                    <p><i class="fa fa-house-chimney-window fa-2x pe-2"></i>Strict compliances</p>
+                    <p><i class="fa fa-circle-minus fa-2x pe-2"></i>Yearly compliance cost</p>
+                    <p><i class="fa fa-indian-rupee-sign fa-2x pe-2"></i>Bank finance not available before 2 years</p>
+                </div>
+            </div>
         </div>
 
         <!-- FAQ's section starts here -->
