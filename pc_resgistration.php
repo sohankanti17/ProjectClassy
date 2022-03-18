@@ -100,16 +100,76 @@
             </div>
         </nav>
 
-        <div class="container bg-primary mt-3 d-flex justify-content-center align-items-center" style="height:300px">
-            <h1>About</h1>
+        <div class="container mt-3 p-4 ">
+            <h2>Why should you establish a private limited company?</h2><br>
+            <p>One of the most pertinent aspects to identify as a business owner is the type of company you want to establish. 
+                Most entrepreneurs prefer establishing their start-up as a private limited company, as the term refers to a company
+                held by a select few people. Within this structure, company owners are only as liable as their percentage of shares had.
+                As a result, the liability that's held by each member is limited, ensuring that owners can sell their shares to raise capital 
+                if they require to do so. This is one of the reasons why young entrepreneurs prefer registering their business as a private 
+                limited company – the limited liability offers a certain level of security within the volatile world of start-ups.</p>
+                <p>
+                    <a class="text-danger" data-toggle="collapse" href="#collapsePLC" role="button" aria-expanded="false" aria-controls="collapse">
+                        Show more.
+                    </a>
+                </p>
+                <div class="collapse" id="collapsePLC">
+                    <p>Additionally, private limited companies are often quite attractive to potential investors who'd like to gain equity in the 
+                        company they are investing in. As the shares can also be issued at a premium, the investment process is generally quite smooth.
+                        Finally, it is essential to note that if you plan to register a private limited company, you only need two company members to
+                        qualify for the same. Conversely, a total of 200 members can also register as owners of the same company. This is yet another 
+                        reason why private limited companies in India are so popular. If you're wondering how to register a private limited company, 
+                        keep reading to find out everything you'll need to know. </p> 
+                </div>
         </div>
 
         <div class="container bg-danger mt-3 d-flex justify-content-center align-items-center" style="height:300px">
             <h1>Services</h1>
         </div>
 
-        <div class="container bg-primary mt-3 d-flex justify-content-center align-items-center" style="height:300px">
-            <h1>Documents Required - Written in a list form</h1>
+        <div class="container mt-4">
+            <h2>Requirements for Registering your Business</h2>
+        <div class="row mt-4">
+            <div class="col p-2">
+                <div class="card align-items-center p-2 bg-light" style="height:100%">
+                <img src=".\assets\images\doc1.png" class="card-img-top mt-3" alt="..." style="height:50px; width:50px">
+                    <div class="card-body">
+                        <h5 class="card-title mb-4 text-center">Minimum Requirements for Private Limited Company</h5>
+                        <ul>
+                            <li >A minimum of two members who are aged 18 or more can be directors and shareholders of the company.</li>
+                            <li >A minimum share capital of Rs 100,0000</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col p-2">
+                <div class="card align-items-center bg-light p-2">
+                <img src=".\assets\images\doc2.png" class="card-img-top mt-3" alt="..." style="height:50px; width:50px">
+                    <div class="card-body">
+                        <h5 class="card-title mb-4 text-center">Documents required for all directors</h5>
+                        <ul>
+                            <li >Self Attested Copy of Pan Card.</li>
+                            <li >Self Attested copy of Aadhar Card / Passport / Driving License / Voter Identity Card</li>
+                            <li>Passport size photograph.</li>
+                            <li>Self Attested Copy of Telephone Bill / Mobile Bill</li>
+                            <li>Self Attested Copy of Electricity Bill / Water Bill</li>
+                            <li>Self Attested Copy of Bank Statement /Bank Passbook with the latest transaction</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col p-2">
+                <div class="card align-items-center bg-light p-2" style="height:100%">
+                <img src=".\assets\images\doc3.png" class="card-img-top mt-3" alt="..." style="height:50px; width:50px">
+                    <div class="card-body">
+                        <h5 class="card-title mb-4 text-center">Documents required to register the office</h5>
+                        <ul>
+                            <li >No-Objection letter from the Owner of Address to use the address of the registered office of the Company.</li>
+                            <li >Electricity Bill/Telephone Bill /Gas Bill/ Water Bill -To be signed by the of the Owner of Premises</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
         </div>
 
         <div class="container bg-danger mt-3 d-flex justify-content-center align-items-center" style="height:300px">
