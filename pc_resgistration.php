@@ -11,7 +11,6 @@
 
         <!-- Any page specific styling will go here -->
         <style type="text/css"></style>
-
         
     </head>
     <body >
@@ -19,7 +18,6 @@
         <?php require_once('./partials/navbar_partial.php') ?>
         
         <!-- Actual page content starts from here -->
-
 
         <div class="container mt-5">
             <div class="row align-items-center g-lg-5">
@@ -114,7 +112,7 @@
         <!-- Fixed navbar starts here -->
 
         <nav class="navbar navbar-expand-md navbar-dark bg-danger mt-3">
-        <div class="container-fluid">
+            <div class="container">
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"   aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -143,7 +141,7 @@
 
         <!-- About section starts here -->
 
-        <div class="container mt-3 p-4 ">
+        <div class="container mt-3 py-4">
             <h2>How it works?</h2><br>
             <p>As per the Companies Act of 2013, a minimum of two members are required for the start-up along with the certificate of incorporation. 
                 The maximum number of members a company can have is 200 and the upper limit for shareholders are limited to 50. The shares of the company
@@ -164,44 +162,44 @@
 
         <!-- Process flow starts here -->
 
-        <div class="container mt-3 py-3">
+        <div class="container mt-3 py-3" id="process-flow">
             <h2 class="mb-3">Registration process flow</h2>
             <p>With Classy Legal, it is refreshingly simple to register your company online. Here’s what you need to do:</p>
-            <div class="row">
-                <div class="col-md-2 col-sm-12 text-center py-2 shadow">
+            <div class="row gap-4 d-flex justify-content-center">
+                <div class="col-md-3 col-sm-12 text-center py-3 shadow">
                     <p class="text-muted m-0">1-2 hours</p>
-                    <span class="my-3 fs-2 fw-bold">1</span>
+                    <span class="d-block position-relative fs-2 fw-bold process-flow-step">1</span>
                     <p class="fw-bold">Select package</p>
                     <p class="m-0 fw-light lh-sm text-muted">Start by selecting the appropriate one, fill out the required forms, or simply speak to our experts online for assistance.</p>
                 </div>
-                <div class="col-md-2 col-sm-12 text-center py-2 shadow">
+                <div class="col-md-3 col-sm-12 text-center py-3 shadow">
                     <p class="text-muted m-0">2 working days</p>
-                    <span class="my-3 fs-2 fw-bold">2</span>
+                    <span class="d-block position-relative fs-2 fw-bold process-flow-step">2</span>
                     <p class="fw-bold">Apply for MOA</p>
                     <p class="m-0 fw-light lh-sm text-muted">We will help you apply for the MoA after obtaining digital signatures and will generate a link to complete eKYC verification.</p>
                 </div>
-                <div class="col-md-2 col-sm-12 text-center py-2 shadow">
+                <div class="col-md-3 col-sm-12 text-center py-3 shadow">
                     <p class="text-muted m-0">2 working days</p>
-                    <span class="my-3 fs-2 fw-bold">3</span>
+                    <span class="d-block position-relative fs-2 fw-bold">3</span>
                     <p class="fw-bold lh-sm">Get your name approved</p>
                     <p class="m-0 fw-light lh-sm text-muted">We will help you identify unique names, and get them approved by filing the RUN form.We will help you identify unique names, and get 
                         them approved by filing the RUN form.</p>
                 </div>
-                <div class="col-md-2 col-sm-12 text-center py-2 shadow">
+                <div class="col-md-3 col-sm-12 text-center py-3 shadow">
                     <p class="text-muted m-0">2 working days</p>
-                    <span class="my-3 fs-2 fw-bold">4</span>
+                    <span class="d-block position-relative fs-2 fw-bold process-flow-step">4</span>
                     <p class="fw-bold">Fill Spice 32 form</p>
                     <p class="m-0 fw-light lh-sm text-muted">We will help you to submit the Spice 32form with the MCA.</p>
                 </div>
-                <div class="col-md-2 col-sm-12 text-center py-2 shadow">
+                <div class="col-md-3 col-sm-12 text-center py-3 shadow">
                     <p class="text-muted m-0">2-3 working days</p>
-                    <span class="my-3 fs-2 fw-bold">5</span>
+                    <span class="d-block position-relative fs-2 fw-bold process-flow-step">5</span>
                     <p class="fw-bold lh-sm">Get company incorporation, PAN &amp; TAN generated</p>
                     <p class="m-0 fw-light lh-sm text-muted">We will help you fill out the Incorporation Certificate. The Ministry of Corporate Affairs will issue your PAN and TAN.</p>
                 </div>
-                <div class="col-md-2 col-sm-12 text-center py-2 shadow">
+                <div class="col-md-3 col-sm-12 text-center py-3 shadow">
                     <p class="text-muted m-0">3-4 working days</p>
-                    <span class="my-3 fs-2 fw-bold">6</span>
+                    <span class="d-block position-relative fs-2 fw-bold">6</span>
                     <p class="fw-bold lh-sm">Obtain documents for GST registration</p>
                     <p class="m-0 fw-light lh-sm text-muted">We will obtain all the documents and will file for the GST registration.</p>
                 </div>
