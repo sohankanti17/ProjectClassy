@@ -19,7 +19,12 @@
         
         <!-- Actual page content starts from here -->
 
+<<<<<<< Updated upstream
         <div class="container mt-5">
+=======
+
+        <div class="container mt-5 mb-5">
+>>>>>>> Stashed changes
             <div class="row align-items-center g-lg-5">
                 <div class="col-lg-8 text-center text-lg-start">
                     <h2 class="display-5 fw-bold mb-5">Private Limited Company Registration</h2>
@@ -73,7 +78,7 @@
 
         <!-- Services section starts here -->
 
-        <div class="container mt-3 mb-5 ">
+        <div class="container mt-5 mb-5 ">
             <h2 class=" mb-5">What all you get !</h2>
             <div class="row p-1">
                 <div class="col-lg">
@@ -90,17 +95,6 @@
                         <li>Include Government Fees & Stamp Duty for Authorized Capital Upto -1 Lakh except for the state of Punjab, MP and Kerala.</li>
                         <li>Msme Registration</li>
                         <li>Share Certificate (Soft Copy)</li>
-                        <li>GST Registration</li>
-                        <li>Trademark Registration</li>
-                    </ul>
-                </div>
-                <div class="col-lg">
-                    <ul>
-                        <li>1month free GST filing</li>
-                        <li>NDA</li>
-                        <li>Guideline for Startup India Registration.</li>
-                        <li>Stamp and Company Seal</li>
-                        <li>Bank – Current Account Opening</li>
                     </ul>
                 </div>
             </div>
@@ -140,9 +134,17 @@
         <!-- Fixed navbar ends here -->
 
         <!-- About section starts here -->
+<<<<<<< Updated upstream
 
         <div class="container mt-3 py-4">
             <h2>How it works?</h2><br>
+=======
+    
+        <div class="fluid-container ms-4 mt-4">
+            <div class="row">
+                <div class="col-9">
+                <h2>How it works?</h2><br>
+>>>>>>> Stashed changes
             <p>As per the Companies Act of 2013, a minimum of two members are required for the start-up along with the certificate of incorporation. 
                 The maximum number of members a company can have is 200 and the upper limit for shareholders are limited to 50. The shares of the company
                  aren't, however, available for stock exchange and the transfer of its shares are restricted. If the company wants to do so, the consent
@@ -154,9 +156,34 @@
                     </a>
                 </p>
                 <div class="collapse" id="collapsePLC">
-                    <p> </p> 
+                    <p>As per the Companies Act of 2013, a minimum of two members are required for the start-up along with the certificate of incorporation. 
+                The maximum number of members a company can have is 200 and the upper limit for shareholders are limited to 50. The shares of the company
+                 aren't, however, available for stock exchange and the transfer of its shares are restricted. If the company wants to do so, the consent
+                  of all the stakeholders are required. The shareholders in the company are usually close friends or relatives. To have a share in a private 
+                  company, one must purchase one or more shares which are issued by the company.</p> 
                 </div>
+
+            <h2>What all you can do under Private Company Registration?</h2>
+            <p>The following steps are to be followed for registration:</p>
+            <ol>
+                <li>Applying for Digital Signature Certificate.</li>
+                <li>Applying for Director’s Identification Number.</li>
+                <li>Applying for company name availability.</li>
+                <li>Filing for EMoa and EAOA.</li>
+                <li>Applying for TAN and PAN.</li>
+                <li>Issue of RoC.</li>
+                <li>Opening a Currents Bank account in the company’s name.</li>
+            </ol>
+
         </div>
+
+                </div>
+                <div class="col-3">
+
+                </div>
+            </div>
+        </div>
+            
 
         <!-- About section ends here -->
 
@@ -211,24 +238,33 @@
 
         <!-- Private Limited Company Registration Benefits starts here -->
 
-        <div class="container mt-5 mb-5 ">
-            <h2>Private Limited Company Registration Benefits</h2>
-            <p>Starting up a Private Limited Company has its down gains. Below are the benefits a private company enjoys:</p>
-            <ul class="mt-4">
-                <li>
-                    <p><h4> Incomes are Tax Efficient:</h4> Pvt. Ltd. companies enjoy a tax efficient method of paying oneself. The directors and owners of a company can draw their own salary via a PAYE (Pay As You Earn). </p>
-                </li>
-                <li>
-                    <p><h4>Raising additional capitals:</h4>  Additional capitals can be raised through the selling of shares which helps a business to invest and grow. </p>
-                </li>
-                <li>
-                    <p><h4>Security for investors:</h4>  Shareholders and investors are immune to the consequences of the company going bankrupt or experiencing legal issues. The risk is limited only to their shares within the company.</p>
-                </li>
-                <li>
-                    <p><h4>Opportunity to work with other companies:</h4>  Most big companies won’t be willing to share their business markets with sole traders. Private limited companies have the advantage of being able to operate with other businesses to provide supplies of goods and services.</p>
-                </li>
-            </ul>
+        <div class="fluid-container p-4">
+            <div class="row">
+                <div class="col-9">
+                <h2>Private Limited Company Registration Benefits</h2>
+                    <p>Starting up a Private Limited Company has its down gains. Below are the benefits a private company enjoys:</p>
+                    <ul class="mt-4">
+                        <li>
+                            <p><h4> Incomes are Tax Efficient:</h4> Pvt. Ltd. companies enjoy a tax efficient method of paying oneself. The directors and owners of a company can draw their own salary via a PAYE (Pay As You Earn). </p>
+                        </li>
+                        <li>
+                            <p><h4>Raising additional capitals:</h4>  Additional capitals can be raised through the selling of shares which helps a business to invest and grow. </p>
+                        </li>
+                        <li>
+                            <p><h4>Security for investors:</h4>  Shareholders and investors are immune to the consequences of the company going bankrupt or experiencing legal issues. The risk is limited only to their shares within the company.</p>
+                        </li>
+                        <li>
+                            <p><h4>Opportunity to work with other companies:</h4>  Most big companies won’t be willing to share their business markets with sole traders. Private limited companies have the advantage of being able to operate with other businesses to provide supplies of goods and services.</p>
+                        </li>
+                    </ul>
 
+
+                </div>
+                <div class="col-3">
+
+                </div>
+
+            </div>
         </div>
 
 
@@ -238,10 +274,13 @@
 
         <!-- Requirements section starts here -->
 
-        <div class="container mt-4">
-            <h2>Requirements for Registering your Business</h2>
+
+        <div class="fluid-container p-4">
+            <div class="row">
+                <div class="col-9">
+                <h2>Requirements for Registering your Business</h2>
         <div class="row mt-4">
-            <div class="col p-2">
+            <div class="col-4 p-2">
                 <div class="card align-items-center p-2 bg-light" style="height:100%">
                 <img src=".\assets\images\doc1.png" class="card-img-top mt-3" alt="..." style="height:50px; width:50px">
                     <div class="card-body">
@@ -253,7 +292,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col p-2">
+            <div class="col-4 p-2">
                 <div class="card align-items-center bg-light p-2">
                 <img src=".\assets\images\doc2.png" class="card-img-top mt-3" alt="..." style="height:50px; width:50px">
                     <div class="card-body">
@@ -269,7 +308,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col p-2">
+            <div class="col-4 p-2">
                 <div class="card align-items-center bg-light p-2" style="height:100%">
                 <img src=".\assets\images\doc3.png" class="card-img-top mt-3" alt="..." style="height:50px; width:50px">
                     <div class="card-body">
@@ -281,30 +320,41 @@
                     </div>
                 </div>
             </div>
+
+                </div>
+                <div class="col-3">
+
+                </div>
+
+            </div>
         </div>
 
         <!-- Requirement Section ends here -->
 
         <!-- Advantages & Disadvantages section starts here -->
 
-        <div class="container mt-3 py-3">
-            <h2 class="my-4 py-2 mb-4">Advantages & Disadvantages of Private Company Registration</h2>
+        <div class="fluid-container p-4">
             <div class="row">
-                <div class="col-sm-12 col-md-6">
-                    <h4 class="fw-normal mb-3">Advantages of Pvt Co. Registration</h4>
-                    <p><i class="fa fa-sack-dollar fa-2x pe-2"></i>No minimum capital</p>
-                    <p><i class="fa fa-house-chimney-window fa-2x pe-2"></i>Secure personal assets</p>
-                    <p><i class="fa fa-circle-minus fa-2x pe-2"></i>Best way to start business in India</p>
-                    <p><i class="fa fa-indian-rupee-sign fa-2x pe-2"></i>Raise funding whenever needed</p>
+                <div class="col-9">
+                <h2 class="my-4 py-2 mb-4">Advantages & Disadvantages of Private Company Registration</h2>
+                <h4 class="fw-normal mb-3">Advantages of Pvt Co. Registration</h4>
+                    <ol>
+                        <li> <p class="fw-bold">No Lower limit for startup-</p>  There’s no minimum amount that is required for starting a Private Company.</li>
+                        <li> <p class="fw-bold">Raising Funds- </p>Private Ltd. companies have a more professional status than a sole trader. It attracts investors who can provide funds for the growth of the company. </li>
+                        <li> <p class="fw-bold">Pvt. Ltd. Companies are FDI allowed- </p>Privately registered companies have the freedom of welcoming Foreign Direct Investments. </li>
+                    </ol>
+                <h4 class="fw-normal mb-3">Disadvantages of Pvt Co. Registration</h4>
+                    <ol>
+                        <li> <p class="fw-bold">Restrictions on stock exchanges</p> The obvious disadvantage of a private limited company is that it cannot sell its stocks publicly without the consent of all its members and shareholders. </li>
+                        <li> <p class="fw-bold">Limit on maximum number of shareholders-</p>The maximum numbers of shareholders a private company can accommodate is 50.</li>
+                        <li> <p class="fw-bold">Mandatory Compliances- </p>The company needs to maintain few obligations, failing to do which can result in fines worth large sums of money. For instance, the directors need to disclose their interests from time to time, file annual returns and maintain statutory registers with the Ministry of Corporate Affairs.  </li>
+                    </ol>
+
                 </div>
-                
-                <div class="col-sm-12 col-md-6">
-                    <h4 class="fw-normal mb-3">Disadvantages of Pvt Co. Registration</h4>
-                    <p><i class="fa fa-sack-dollar fa-2x pe-2"></i>Cannot accept deposits</p>
-                    <p><i class="fa fa-house-chimney-window fa-2x pe-2"></i>Strict compliances</p>
-                    <p><i class="fa fa-circle-minus fa-2x pe-2"></i>Yearly compliance cost</p>
-                    <p><i class="fa fa-indian-rupee-sign fa-2x pe-2"></i>Bank finance not available before 2 years</p>
+                <div class="col-3">
+
                 </div>
+
             </div>
         </div>
 
@@ -312,65 +362,59 @@
 
         <!-- FAQ's section starts here -->
 
-        <div class="container mt-3 p-2 mb-3">
-            <h2 class="mb-4">Frequently Asked Questions</h2>
+        <div class="fluid-container">
+            <div class="row">
+                <div class="col-9">
+                <h2 class="mb-4">Frequently Asked Questions</h2>
             <div class="accordion accordion-flush">
                 <div class="accordion-item">
                     <h2 class="accordion-header" id="flush-headingOne">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-                        Accordion Item #1
+                    1.	What is the Time and Cost of Private Company Registration?
                     </button>
                     </h2>
                     <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
-                    <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's 
-                    accordion body.</div>
+                    <div class="accordion-body">It usually takes around 10-15 days for registration after all the documents are submitted. The cost of registering a company as a Private Limited Company ranges from Rs. 6,000 to Rs. 30,000. This depends on the number of directors, members and few other factors. </div>
                     </div>
                 </div>
                 <div class="accordion-item">
                     <h2 class="accordion-header" id="flush-headingTwo">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-                        Accordion Item #2
+                    2.	How to choose a company name for Private Company Registration?
                     </button>
                     </h2>
                     <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
-                    <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. 
-                    Let's imagine this being filled with some actual content.</div>
+                    <div class="accordion-body">The first rule is to avoid choosing an undesirable and controversial name. Also, one has to carefully adhere to the Emblems and Names Act.</div>
                     </div>
                 </div>
                 <div class="accordion-item">
                     <h2 class="accordion-header" id="flush-headingThree">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-                        Accordion Item #3
+                    3.	Who can start a private company in India?
                     </button>
                     </h2>
                     <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
-                    <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. 
-                    Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in
-                     a real-world application.</div>
+                    <div class="accordion-body">-	Any organisation is eligible to start a pvt. company. According to the Companies Act, 2013, minimum two members are required for starting up a private company. The documents required are -  PAN card, Govt ID proof - Voters’ ID or passport or driver’s licence, Bank statement, Utility bills either mobile or gas or electricity, Passport size photograph, Specimen signature - Director’s signature on a blank document and DIN.</div>
                     </div>
                 </div>
                 <div class="accordion-item">
                     <h2 class="accordion-header" id="flush-headingFour">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
-                        Accordion Item #4
+                    4.	How to raise funding in a Private Limited Company?
                     </button>
                     </h2>
                     <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
-                    <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body.
-                     Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look 
-                     in a real-world application.</div>
+                    <div class="accordion-body">-	Private companies aren’t allowed to sell their shares at the stock exchange. Therefore, in order to raise funds, companies need investors and shareholders. Other major sources of their fundings are retained earnings, debt capitals and equity capitals.</div>
                     </div>
                 </div>
                 <div class="accordion-item">
                     <h2 class="accordion-header" id="flush-headingFive">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
-                        Accordion Item #5
+                    5. Why should you establish a Private Limited Company?
                     </button>
                     </h2>
                     <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFive" data-bs-parent="#accordionFlushExample">
-                    <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. 
-                    Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look 
-                    in a real-world application.</div>
+                    <div class="accordion-body">-	Professional Status. A pvt. Ltd. Company has a higher status and a more professional reach than a sole trader. Other businesses and investors are usually more willing to work with Pvt. Ltd. companies.</div>
                     </div>
                 </div>
                 <div class="accordion-item">
@@ -434,10 +478,18 @@
                     </div>
                 </div>
             </div>
+
+                </div>
+                <div class="col-3">
+
+                </div>
+
+            </div>
         </div>
 
-        <!-- FAQ;s section ends here -->
 
+        <!-- FAQ;s section ends here -->
+    
 
 
         
