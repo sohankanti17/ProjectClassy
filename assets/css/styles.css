@@ -1,3 +1,22 @@
+:root {
+    --purple: #5400a3;
+    --light: #5400a30c;
+    --white: #ffffff;
+}
+
+.bg-primary, .btn-primary{
+    background-color: var(--purple)!important;
+    color: var(--white)!important;
+}
+
+.border-primary, .btn-primary{
+    border-color: var(--purple)!important;
+}
+
+.bg-light{
+    background-color: var(--light)!important;
+}
+
 #process-flow .process-flow-step::after{
     content: "";
     display: block;
@@ -6,12 +25,19 @@
     background-size: contain;
     background-repeat: no-repeat;
 
+
     width: 100%;
     height: 250%;
 
     top: -70%;
-    left: 63%;
+    left: 80%;
 }
+
+.round-card{
+    overflow: hidden;
+    border-radius: 25px!important;
+}
+
 
 @media (max-width: 768px) {
     #process-flow .process-flow-step::after{

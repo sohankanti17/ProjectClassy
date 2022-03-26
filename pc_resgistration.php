@@ -17,13 +17,14 @@
     <body >
         <!-- Navigation bar -->
         <?php require_once('./partials/navbar_partial.php') ?>
+
+
         
         <!-- Actual page content starts from here -->
 
-
         <div class="container mt-5 mb-5">
             <div class="row align-items-center g-lg-5">
-                <div class="col-lg-8 text-center text-lg-start">
+                <div class="col-lg-8 text-center text-lg-start ">
                     <h2 class="display-5 fw-bold mb-5">Private Limited Company Registration</h2>
                     <p class="fs-5">A private limited company, as the term suggests, is a business organisation which is privately run and is owned by shareholders. 
                         Directors carry the responsibilities of running the company but holding the post of a director in a Private Limited Company doesn’t mean he or 
@@ -33,8 +34,8 @@
                           The company then distributes the remaining profit amongst its shareholders.</p>
                 </div>
 
-                <div class="col-md-10 mx-auto col-lg-4">
-                    <div class="card mb-4 rounded-4 shadow-lg border-primary">
+                <div class="col-md-10 mx-auto col-lg-4 pt-3">
+                    <div class="card mb-4 rounded-3 shadow-lg border-primary round-card">
                         <div class="card-header py-3 text-white bg-primary border-primary">
                             <h4 class="my-0 fw-normal text-center">3000 +Govt Fees</h4>
                         </div>
@@ -71,14 +72,16 @@
             </div>
         </div>
 
+        <!-- Actual page content ends from here -->
+
 
 
         <!-- Services section starts here -->
 
-        <div class="container mt-5 mb-5 ">
-            <h2 class=" mb-5">What all you get !</h2>
-            <div class="row p-1">
-                <div class="col-lg">
+        <div class="container mt-4 mb-5 ">
+            <h2 class=" mb-3">What all you get !</h2>
+            <div class="row p-1 fs-5">
+                <div class="col-lg ">
                     <ul>
                         <li>Name Search Report</li>
                         <li>Name approval in RUN (Reserve Your Unique Name)</li>
@@ -102,27 +105,30 @@
 
         <!-- Fixed navbar starts here -->
 
-        <nav class="navbar navbar-expand-md navbar-dark bg-danger mt-3">
-        <div class="container-fluid">
+        <nav class="navbar sticky-top navbar-expand-md mt-3 bg-primary" id="sticky-nav">
+        <div class="container">
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"   aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse">
+            <div class="collapse navbar-collapse ">
                 <ul class="navbar-nav me-auto mb-2 mb-sm-0">
                 <li class="nav-item">
-                    <a class="nav-link" href="#">About</a>
+                    <a class="nav-link text-white" href="#about">About</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Services</a>
+                    <a class="nav-link text-white" href="#process-flow">Process Flow</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Document Requirement</a>
+                    <a class="nav-link text-white" href="#benefits">Registration Benefits</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Advantages & Disadvantages</a>
+                    <a class="nav-link text-white" href="#requirements">Requirements</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">FAQ's</a>
+                    <a class="nav-link text-white" href="#">Advantages & Disadvantages</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="#">FAQ's</a>
                 </li>
                 </ul>
             </div>
@@ -132,29 +138,20 @@
 
         <!-- About section starts here -->
     
-        <div class="fluid-container ms-4 mt-4">
-            <div class="row">
-                <div class="col-9">
-                <h2>How it works?</h2><br>
+        <div class="container my-5 fs-5" id="about" >
+            <h2 class="mb-3">How it works?</h2>
             <p>As per the Companies Act of 2013, a minimum of two members are required for the start-up along with the certificate of incorporation. 
                 The maximum number of members a company can have is 200 and the upper limit for shareholders are limited to 50. The shares of the company
                  aren't, however, available for stock exchange and the transfer of its shares are restricted. If the company wants to do so, the consent
                   of all the stakeholders are required. The shareholders in the company are usually close friends or relatives. To have a share in a private 
                   company, one must purchase one or more shares which are issued by the company.</p>
-                <p>
-                    <a class="text-danger" data-toggle="collapse" href="#collapsePLC" role="button" aria-expanded="false" aria-controls="collapse">
-                        Show more.
-                    </a>
-                </p>
-                <div class="collapse" id="collapsePLC">
-                    <p>As per the Companies Act of 2013, a minimum of two members are required for the start-up along with the certificate of incorporation. 
-                The maximum number of members a company can have is 200 and the upper limit for shareholders are limited to 50. The shares of the company
-                 aren't, however, available for stock exchange and the transfer of its shares are restricted. If the company wants to do so, the consent
-                  of all the stakeholders are required. The shareholders in the company are usually close friends or relatives. To have a share in a private 
-                  company, one must purchase one or more shares which are issued by the company.</p> 
-                </div>
+        </div>
 
-            <h2>What all you can do under Private Company Registration?</h2>
+        <!-- About section ends here -->
+
+
+        <div class="container fs-5 mt-5">
+        <h2 class="mb-3">What all you can do under Private Company Registration?</h2>
             <p>The following steps are to be followed for registration:</p>
             <ol>
                 <li>Applying for Digital Signature Certificate.</li>
@@ -165,107 +162,81 @@
                 <li>Issue of RoC.</li>
                 <li>Opening a Currents Bank account in the company’s name.</li>
             </ol>
-
         </div>
 
-                </div>
-                <div class="col-3">
+        <!-- Process flow starts here -->
 
+        <div id="process-flow" class="container mt-5 fs-5"  >
+            <h2 class="mb-3">Registration process flow</h2>
+            <p class="mb-5">With Classy Legal, it is refreshingly simple to register your company online. Here’s what you need to do:</p>
+            <div class="row gap-4 d-flex justify-content-evenly mt-4" >
+                <div class="col-md-3 col-sm-12 text-center py-3 shadow bg-light ">
+                    <p class="text-muted m-0">1-2 hours</p>
+                    <span class="d-block position-relative fs-2 fw-bold process-flow-step">1</span>
+                    <p class="fw-bold">Select package</p>
+                    <p class="m-0 fw-light lh-sm text-muted">Start by selecting the appropriate one, fill out the required forms, or simply speak to our experts online for assistance.</p>
+                </div>
+                <div class="col-md-3 col-sm-12 text-center py-3 shadow bg-light">
+                    <p class="text-muted m-0">2 working days</p>
+                    <span class="d-block position-relative fs-2 fw-bold process-flow-step">2</span>
+                    <p class="fw-bold">Apply for MOA</p>
+                    <p class="m-0 fw-light lh-sm text-muted">We will help you apply for the MoA after obtaining digital signatures and will generate a link to complete eKYC verification.</p>
+                </div>
+                <div class="col-md-3 col-sm-12 text-center py-3 shadow bg-light">
+                    <p class="text-muted m-0">2 working days</p>
+                    <span class="d-block position-relative fs-2 fw-bold">3</span>
+                    <p class="fw-bold lh-sm">Get your name approved</p>
+                    <p class="m-0 fw-light lh-sm text-muted">We will help you identify unique names, and get them approved by filing the RUN form.We will help you identify unique names, and get 
+                        them approved by filing the RUN form.</p>
+                </div>
+                <div class="col-md-3 col-sm-12 text-center py-3 shadow bg-light">
+                    <p class="text-muted m-0">2 working days</p>
+                    <span class="d-block position-relative fs-2 fw-bold process-flow-step">4</span>
+                    <p class="fw-bold">Fill Spice 32 form</p>
+                    <p class="m-0 fw-light lh-sm text-muted">We will help you to submit the Spice 32form with the MCA.</p>
+                </div>
+                <div class="col-md-3 col-sm-12 text-center py-3 shadow bg-light">
+                    <p class="text-muted m-0">2-3 working days</p>
+                    <span class="d-block position-relative fs-2 fw-bold process-flow-step">5</span>
+                    <p class="fw-bold lh-sm">Get company incorporation, PAN &amp; TAN generated</p>
+                    <p class="m-0 fw-light lh-sm text-muted">We will help you fill out the Incorporation Certificate. The Ministry of Corporate Affairs will issue your PAN and TAN.</p>
+                </div>
+                <div class="col-md-3 col-sm-12 text-center py-3 shadow bg-light">
+                    <p class="text-muted m-0">3-4 working days</p>
+                    <span class="d-block position-relative fs-2 fw-bold">6</span>
+                    <p class="fw-bold lh-sm">Obtain documents for GST registration</p>
+                    <p class="m-0 fw-light lh-sm text-muted">We will obtain all the documents and will file for the GST registration.</p>
                 </div>
             </div>
         </div>
-            
-
-        <!-- About section ends here -->
-
-<!-- Process flow starts here -->
-
-<div class="fluid-container p-4" id="process-flow">
-    <div class="row">
-        <div class="col-9">
-        <h2 class="mb-3">Registration process flow</h2>
-    <p>With Classy Legal, it is refreshingly simple to register your company online. Here’s what you need to do:</p>
-    <div class="row gap-4 d-flex justify-content-center">
-        <div class="col-md-3 col-sm-12 text-center py-3 shadow">
-            <p class="text-muted m-0">1-2 hours</p>
-            <span class="d-block position-relative fs-2 fw-bold process-flow-step">1</span>
-            <p class="fw-bold">Select package</p>
-            <p class="m-0 fw-light lh-sm text-muted">Start by selecting the appropriate one, fill out the required forms, or simply speak to our experts online for assistance.</p>
-        </div>
-        <div class="col-md-3 col-sm-12 text-center py-3 shadow">
-            <p class="text-muted m-0">2 working days</p>
-            <span class="d-block position-relative fs-2 fw-bold process-flow-step">2</span>
-            <p class="fw-bold">Apply for MOA</p>
-            <p class="m-0 fw-light lh-sm text-muted">We will help you apply for the MoA after obtaining digital signatures and will generate a link to complete eKYC verification.</p>
-        </div>
-        <div class="col-md-3 col-sm-12 text-center py-3 shadow">
-            <p class="text-muted m-0">2 working days</p>
-            <span class="d-block position-relative fs-2 fw-bold">3</span>
-            <p class="fw-bold lh-sm">Get your name approved</p>
-            <p class="m-0 fw-light lh-sm text-muted">We will help you identify unique names, and get them approved by filing the RUN form.We will help you identify unique names, and get 
-                them approved by filing the RUN form.</p>
-        </div>
-        <div class="col-md-3 col-sm-12 text-center py-3 shadow">
-            <p class="text-muted m-0">2 working days</p>
-            <span class="d-block position-relative fs-2 fw-bold process-flow-step">4</span>
-            <p class="fw-bold">Fill Spice 32 form</p>
-            <p class="m-0 fw-light lh-sm text-muted">We will help you to submit the Spice 32form with the MCA.</p>
-        </div>
-        <div class="col-md-3 col-sm-12 text-center py-3 shadow">
-            <p class="text-muted m-0">2-3 working days</p>
-            <span class="d-block position-relative fs-2 fw-bold process-flow-step">5</span>
-            <p class="fw-bold lh-sm">Get company incorporation, PAN &amp; TAN generated</p>
-            <p class="m-0 fw-light lh-sm text-muted">We will help you fill out the Incorporation Certificate. The Ministry of Corporate Affairs will issue your PAN and TAN.</p>
-        </div>
-        <div class="col-md-3 col-sm-12 text-center py-3 shadow">
-            <p class="text-muted m-0">3-4 working days</p>
-            <span class="d-block position-relative fs-2 fw-bold">6</span>
-            <p class="fw-bold lh-sm">Obtain documents for GST registration</p>
-            <p class="m-0 fw-light lh-sm text-muted">We will obtain all the documents and will file for the GST registration.</p>
-        </div>
-    </div>
-
-        </div>
-        <div class="col-3">
-
-        </div>
-
-    </div>
-</div>
 
 
-<!-- Process flow ends here -->
+        <!-- Process flow ends here -->
 
 
         <!-- Private Limited Company Registration Benefits starts here -->
 
-        <div class="fluid-container p-4">
-            <div class="row">
-                <div class="col-9">
-                <h2>Private Limited Company Registration Benefits</h2>
-                    <p>Starting up a Private Limited Company has its down gains. Below are the benefits a private company enjoys:</p>
-                    <ul class="mt-4">
-                        <li>
-                            <p><h4> Incomes are Tax Efficient:</h4> Pvt. Ltd. companies enjoy a tax efficient method of paying oneself. The directors and owners of a company can draw their own salary via a PAYE (Pay As You Earn). </p>
-                        </li>
-                        <li>
-                            <p><h4>Raising additional capitals:</h4>  Additional capitals can be raised through the selling of shares which helps a business to invest and grow. </p>
-                        </li>
-                        <li>
-                            <p><h4>Security for investors:</h4>  Shareholders and investors are immune to the consequences of the company going bankrupt or experiencing legal issues. The risk is limited only to their shares within the company.</p>
-                        </li>
-                        <li>
-                            <p><h4>Opportunity to work with other companies:</h4>  Most big companies won’t be willing to share their business markets with sole traders. Private limited companies have the advantage of being able to operate with other businesses to provide supplies of goods and services.</p>
-                        </li>
-                    </ul>
+        <div id="benefits" class="container my-5 pt-4 fs-5" >
+            <h2>Private Limited Company Registration Benefits</h2>
+                <p class="mt-3">Starting up a Private Limited Company has its down gains. Below are the benefits a private company enjoys:</p>
+                <ul class="mt-4 fs-5">
+                    <li>
+                        <p class="d-inline fw-bold">Incomes are Tax Efficient:</p> Pvt. Ltd. companies enjoy a tax efficient method of paying oneself. The directors and owners of a company can draw their own salary via a PAYE (Pay As You Earn).
+                    </li>
+                    <br>
+                    <li>
+                        <p class="d-inline fw-bold">Raising additional capitals:</p>  Additional capitals can be raised through the selling of shares which helps a business to invest and grow. 
+                    </li>
+                    <br>
+                    <li>
+                        <p class="d-inline fw-bold">Security for investors:</p>  Shareholders and investors are immune to the consequences of the company going bankrupt or experiencing legal issues. The risk is limited only to their shares within the company. 
 
-
-                </div>
-                <div class="col-3">
-
-                </div>
-
-            </div>
+                    </li>
+                    <br>
+                    <li>
+                        <p class="d-inline fw-bold">Opportunity to work with other companies:</p>  Most big companies won’t be willing to share their business markets with sole traders. Private limited companies have the advantage of being able to operate with other businesses to provide supplies of goods and services. 
+                    </li>
+                </ul>
         </div>
 
 
@@ -276,12 +247,10 @@
         <!-- Requirements section starts here -->
 
 
-        <div class="fluid-container p-4">
-            <div class="row">
-                <div class="col-9">
-                <h2>Requirements for Registering your Business</h2>
+    <div class="container " id="requirements">
+        <h2>Requirements for Registering your Business</h2>
         <div class="row mt-4">
-            <div class="col-4 p-2">
+            <div class="col-md-4 p-2">
                 <div class="card align-items-center p-2 bg-light" style="height:100%">
                 <img src=".\assets\images\doc1.png" class="card-img-top mt-3" alt="..." style="height:50px; width:50px">
                     <div class="card-body">
@@ -293,7 +262,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-4 p-2">
+            <div class="col-md-4 p-2">
                 <div class="card align-items-center bg-light p-2">
                 <img src=".\assets\images\doc2.png" class="card-img-top mt-3" alt="..." style="height:50px; width:50px">
                     <div class="card-body">
@@ -309,7 +278,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-4 p-2">
+            <div class="col-md-4 p-2">
                 <div class="card align-items-center bg-light p-2" style="height:100%">
                 <img src=".\assets\images\doc3.png" class="card-img-top mt-3" alt="..." style="height:50px; width:50px">
                     <div class="card-body">
@@ -321,52 +290,36 @@
                     </div>
                 </div>
             </div>
-
-                </div>
-                <div class="col-3">
-
-                </div>
-
-            </div>
         </div>
+    </div>
 
         <!-- Requirement Section ends here -->
 
         <!-- Advantages & Disadvantages section starts here -->
 
-        <div class="fluid-container p-4">
-            <div class="row">
-                <div class="col-9">
-                <h2 class="my-4 py-2 mb-4">Advantages & Disadvantages of Private Company Registration</h2>
-                <h4 class="fw-normal mb-3">Advantages of Pvt Co. Registration</h4>
+        <div class="container my-5 fs-5">
+                <h2 class="my-4 py-2 mb-4 ">Advantages & Disadvantages of Private Company Registration</h2>
+                <h4 class="fw-normal mb-3 fw-bold">Advantages of Pvt Co. Registration</h4>
                     <ol>
-                        <li> <p class="fw-bold">No Lower limit for startup-</p>  There’s no minimum amount that is required for starting a Private Company.</li>
-                        <li> <p class="fw-bold">Raising Funds- </p>Private Ltd. companies have a more professional status than a sole trader. It attracts investors who can provide funds for the growth of the company. </li>
-                        <li> <p class="fw-bold">Pvt. Ltd. Companies are FDI allowed- </p>Privately registered companies have the freedom of welcoming Foreign Direct Investments. </li>
+                        <li> <p class="fw-bold d-inline">No Lower limit for startup-</p>  There’s no minimum amount that is required for starting a Private Company.</li><br>
+                        <li> <p class="fw-bold d-inline">Raising Funds- </p>Private Ltd. companies have a more professional status than a sole trader. It attracts investors who can provide funds for the growth of the company. </li><br>
+                        <li> <p class="fw-bold d-inline">Pvt. Ltd. Companies are FDI allowed- </p>Privately registered companies have the freedom of welcoming Foreign Direct Investments. </li><br>
                     </ol>
-                <h4 class="fw-normal mb-3">Disadvantages of Pvt Co. Registration</h4>
+                <h4 class="fw-normal mb-3 fw-bold">Disadvantages of Pvt Co. Registration</h4>
                     <ol>
-                        <li> <p class="fw-bold">Restrictions on stock exchanges</p> The obvious disadvantage of a private limited company is that it cannot sell its stocks publicly without the consent of all its members and shareholders. </li>
-                        <li> <p class="fw-bold">Limit on maximum number of shareholders-</p>The maximum numbers of shareholders a private company can accommodate is 50.</li>
-                        <li> <p class="fw-bold">Mandatory Compliances- </p>The company needs to maintain few obligations, failing to do which can result in fines worth large sums of money. For instance, the directors need to disclose their interests from time to time, file annual returns and maintain statutory registers with the Ministry of Corporate Affairs.  </li>
+                        <li> <p class="fw-bold d-inline">Restrictions on stock exchanges</p> The obvious disadvantage of a private limited company is that it cannot sell its stocks publicly without the consent of all its members and shareholders. </li><br>
+                        <li> <p class="fw-bold d-inline">Limit on maximum number of shareholders-</p>The maximum numbers of shareholders a private company can accommodate is 50.</li><br>
+                        <li> <p class="fw-bold d-inline">Mandatory Compliances- </p>The company needs to maintain few obligations, failing to do which can result in fines worth large sums of money. For instance, the directors need to disclose their interests from time to time, file annual returns and maintain statutory registers with the Ministry of Corporate Affairs.  </li><br>
                     </ol>
 
-                </div>
-                <div class="col-3">
-
-                </div>
-
-            </div>
         </div>
-
+    
         <!-- Advantages & Disadvantages section ends here -->
 
         <!-- FAQ's section starts here -->
 
-        <div class="fluid-container">
-            <div class="row">
-                <div class="col-9">
-                <h2 class="mb-4">Frequently Asked Questions</h2>
+        <div class="container my-5">
+            <h2 class="mb-4">Frequently Asked Questions</h2>
             <div class="accordion accordion-flush">
                 <div class="accordion-item">
                     <h2 class="accordion-header" id="flush-headingOne">
@@ -405,7 +358,7 @@
                     </button>
                     </h2>
                     <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
-                    <div class="accordion-body">-	Private companies aren’t allowed to sell their shares at the stock exchange. Therefore, in order to raise funds, companies need investors and shareholders. Other major sources of their fundings are retained earnings, debt capitals and equity capitals.</div>
+                    <div class="accordion-body">Private companies aren’t allowed to sell their shares at the stock exchange. Therefore, in order to raise funds, companies need investors and shareholders. Other major sources of their fundings are retained earnings, debt capitals and equity capitals.</div>
                     </div>
                 </div>
                 <div class="accordion-item">
@@ -415,7 +368,7 @@
                     </button>
                     </h2>
                     <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFive" data-bs-parent="#accordionFlushExample">
-                    <div class="accordion-body">-	Professional Status. A pvt. Ltd. Company has a higher status and a more professional reach than a sole trader. Other businesses and investors are usually more willing to work with Pvt. Ltd. companies.</div>
+                    <div class="accordion-body">Professional Status. A pvt. Ltd. Company has a higher status and a more professional reach than a sole trader. Other businesses and investors are usually more willing to work with Pvt. Ltd. companies.</div>
                     </div>
                 </div>
                 <div class="accordion-item">
@@ -479,18 +432,128 @@
                     </div>
                 </div>
             </div>
-
-                </div>
-                <div class="col-3">
-
-                </div>
-
-            </div>
         </div>
 
 
         <!-- FAQ;s section ends here -->
-    
+
+
+        <!-- More Services and Doubt section starts here -->
+
+        <div class="container mt-4">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card mb-4 border-primary round-card p-2">
+                        
+                            <h5 class="my-0 text-center mb-3 p-3">Have queries? Talk to an expert</h5>
+                     
+                        <form class="p-5 p-md-4 border rounded-5 bg-light">
+                            <div class="form-floating mb-3">
+                            <input type="name" class="form-control" id="floatingInput" placeholder="name">
+                            <label for="floatingInput">Full Name</label>
+                            </div>
+                            <div class="form-floating mb-3">
+                                <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                                <label for="floatingInput">Email address</label>
+                            </div>
+                            <div class="form-floating mb-3">
+                                <input type="number" class="form-control" id="floatingInput" placeholder="number">
+                                <label for="floatingPassword">Phone Number</label>
+                            </div>
+
+                            <button type="button" class="round-card w-100 btn btn-lg btn-primary mt-2">Contact us</button>
+                </div>
+
+
+                </div>
+                
+                <div class="col-md-4 mt-3">
+
+                    <div class="list-group">
+                        <a href="#" class="list-group-item list-group-item-action d-flex gap-3 py-3 my-1" aria-current="true">
+                            <img src=".\assets\images\ben1.png" alt="twbs" width="32" height="32" class="rounded-circle flex-shrink-0">
+                            <div class="d-flex gap-2 w-100 justify-content-between">
+                            <div>
+                                <h6 class="mb-0">Financial Projection</h6>
+                                <p class="mb-0 opacity-75">$1000</p>
+                            </div>
+                            </div>
+                        </a>
+                        <a href="#" class="list-group-item list-group-item-action d-flex gap-3 py-3 my-1" aria-current="true">
+                            <img src=".\assets\images\ben2.png" alt="twbs" width="32" height="32" class="rounded-circle flex-shrink-0">
+                            <div class="d-flex gap-2 w-100 justify-content-between">
+                            <div>
+                                <h6 class="mb-0">Terms and Conditionse</h6>
+                                <p class="mb-0 opacity-75">$2000</p>
+                            </div>
+                            </div>
+                        </a>
+                        <a href="#" class="list-group-item list-group-item-action d-flex gap-3 py-3 my-1" aria-current="true">
+                            <img src=".\assets\images\ben3.png" alt="twbs" width="32" height="32" class="rounded-circle flex-shrink-0">
+                            <div class="d-flex gap-2 w-100 justify-content-between">
+                            <div>
+                                <h6 class="mb-0">GST Registration</h6>
+                                <p class="mb-0 opacity-75">$3000</p>
+                            </div>
+                            </div>
+                        </a>
+                        <a href="#" class="list-group-item list-group-item-action d-flex gap-3 py-3 my-1" aria-current="true">
+                            <img src=".\assets\images\ben4.png" alt="twbs" width="32" height="32" class="rounded-circle flex-shrink-0">
+                            <div class="d-flex gap-2 w-100 justify-content-between">
+                            <div>
+                                <h6 class="mb-0">ISO Registration</h6>
+                                <p class="mb-0 opacity-75">$4000</p>
+                            </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-4 mt-3">
+
+                    <div class="list-group">
+                        <a href="#" class="list-group-item list-group-item-action d-flex gap-3 py-3 my-1" aria-current="true">
+                            <img src=".\assets\images\ben5.png" alt="twbs" width="32" height="32" class="rounded-circle flex-shrink-0">
+                            <div class="d-flex gap-2 w-100 justify-content-between">
+                            <div>
+                                <h6 class="mb-0">Trademark Registration</h6>
+                                <p class="mb-0 opacity-75">$1000</p>
+                            </div>
+                            </div>
+                        </a>
+                        <a href="#" class="list-group-item list-group-item-action d-flex gap-3 py-3 my-1" aria-current="true">
+                            <img src=".\assets\images\ben6.png" alt="twbs" width="32" height="32" class="rounded-circle flex-shrink-0">
+                            <div class="d-flex gap-2 w-100 justify-content-between">
+                            <div>
+                                <h6 class="mb-0">Brand Copyright</h6>
+                                <p class="mb-0 opacity-75">$2000</p>
+                            </div>
+                            </div>
+                        </a>
+                        <a href="#" class="list-group-item list-group-item-action d-flex gap-3 py-3 my-1" aria-current="true">
+                            <img src=".\assets\images\ben7.png" alt="twbs" width="32" height="32" class="rounded-circle flex-shrink-0">
+                            <div class="d-flex gap-2 w-100 justify-content-between">
+                            <div>
+                                <h6 class="mb-0">FSSAI Registration</h6>
+                                <p class="mb-0 opacity-75">$3000</p>
+                            </div>
+                            </div>
+                        </a>
+                        <a href="#" class="list-group-item list-group-item-action d-flex gap-3 py-3 my-1" aria-current="true">
+                            <img src=".\assets\images\ben8.png" alt="twbs" width="32" height="32" class="rounded-circle flex-shrink-0">
+                            <div class="d-flex gap-2 w-100 justify-content-between">
+                            <div>
+                                <h6 class="mb-0">FSSAI License</h6>
+                                <p class="mb-0 opacity-75">$4000</p>
+                            </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                
+        </div>
+
+        <!-- More Services and Doubt section ends here -->
+
 
 
         
