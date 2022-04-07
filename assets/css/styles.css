@@ -37,6 +37,22 @@ html {
     left: 80%;
 }
 
+#parallax-image{
+    background-image: url("../images/parallax.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-attachment: fixed;
+    background-size: cover;
+    height: 500px;
+   
+}
+
+#fontdemo{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
 .round-card{
     overflow: hidden;
     border-radius: 25px!important;

@@ -384,17 +384,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
         <!-- Footer -->
         <?php require_once('./partials/footer_partial.php') ?>
 

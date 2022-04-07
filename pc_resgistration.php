@@ -22,16 +22,20 @@
         
         <!-- Actual page content starts from here -->
 
-        <div class="container mt-5 mb-5">
+        <div class="container mt-5 mb-5"  id="fontdemo">
             <div class="row align-items-center g-lg-5">
                 <div class="col-lg-8 text-center text-lg-start ">
                     <h2 class="display-5 fw-bold mb-5">Private Limited Company Registration</h2>
                     <p class="fs-5">A private limited company, as the term suggests, is a business organisation which is privately run and is owned by shareholders. 
                         Directors carry the responsibilities of running the company but holding the post of a director in a Private Limited Company doesn’t mean he or 
-                        she is self-employed or the sole owner; but they are also the employees in the company. Therefore, in case of any legal disputes, the company 
-                        is itself the target of the law and not the directors.<br><br>The ‘limited’ in the name means that the liability of a shareholder is limited only
-                         to the shares they own in the company.  Corporation tax is required to be paid by the company relative to the profits that are made.
-                          The company then distributes the remaining profit amongst its shareholders.</p>
+                        she is self-employed or the sole owner; but they are also the employees in the company. </p>
+                        <ul>
+                            <li>Main nbullet points</li>
+                            <li>Quality Timly cost effective </li>
+                            <li>Simplied process</li>
+                            <li>point </li>
+                            <li>point </li>
+                        </ul>
                 </div>
 
                 <div class="col-md-10 mx-auto col-lg-4 pt-3">
@@ -246,14 +250,14 @@
 
         <!-- Requirements section starts here -->
 
-
-    <div class="container " id="requirements">
-        <h2>Requirements for Registering your Business</h2>
+    <div class="fluid-container py-4" id="parallax-image">
+    <div class="container">    
+        <h2 class="text-white">Requirements for Registering your Business</h2>
         <div class="row mt-4">
             <div class="col-md-4 p-2">
-                <div class="card align-items-center p-2 bg-light" style="height:100%">
+                <div class="card align-items-center p-2 bg-white" style="height:100%">
                 <img src=".\assets\images\doc1.png" class="card-img-top mt-3" alt="..." style="height:50px; width:50px">
-                    <div class="card-body">
+                    <div class="card-body"> 
                         <h5 class="card-title mb-4 text-center">Minimum Requirements for Private Limited Company</h5>
                         <ul>
                             <li >A minimum of two members who are aged 18 or more can be directors and shareholders of the company.</li>
@@ -263,7 +267,7 @@
                 </div>
             </div>
             <div class="col-md-4 p-2">
-                <div class="card align-items-center bg-light p-2">
+                <div class="card align-items-center bg-white p-2">
                 <img src=".\assets\images\doc2.png" class="card-img-top mt-3" alt="..." style="height:50px; width:50px">
                     <div class="card-body">
                         <h5 class="card-title mb-4 text-center">Documents required for all directors</h5>
@@ -279,7 +283,7 @@
                 </div>
             </div>
             <div class="col-md-4 p-2">
-                <div class="card align-items-center bg-light p-2" style="height:100%">
+                <div class="card align-items-center bg-white p-2" style="height:100%">
                 <img src=".\assets\images\doc3.png" class="card-img-top mt-3" alt="..." style="height:50px; width:50px">
                     <div class="card-body">
                         <h5 class="card-title mb-4 text-center">Documents required to register the office</h5>
@@ -292,7 +296,7 @@
             </div>
         </div>
     </div>
-
+    </div>
         <!-- Requirement Section ends here -->
 
         <!-- Advantages & Disadvantages section starts here -->
