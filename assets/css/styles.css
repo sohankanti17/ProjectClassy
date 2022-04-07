@@ -4,6 +4,10 @@
     --white: #ffffff;
 }
 
+html {
+    scroll-behavior: smooth!important;
+}
+
 .bg-primary, .btn-primary{
     background-color: var(--purple)!important;
     color: var(--white)!important;

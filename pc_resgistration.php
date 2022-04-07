@@ -106,31 +106,32 @@
         <!-- Fixed navbar starts here -->
 
         <nav class="navbar sticky-top navbar-expand-md mt-3 bg-primary" id="sticky-nav">
-        <div class="container">
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"   aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse ">
-                <ul class="navbar-nav me-auto mb-2 mb-sm-0">
-                <li class="nav-item">
-                    <a class="nav-link text-white" href="#about">About</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link text-white" href="#process-flow">Process Flow</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link text-white" href="#benefits">Registration Benefits</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link text-white" href="#requirements">Requirements</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link text-white" href="#">Advantages & Disadvantages</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link text-white" href="#">FAQ's</a>
-                </li>
-                </ul>
+            <div class="container">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"   aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse ">
+                    <ul class="navbar-nav me-auto mb-2 mb-sm-0">
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#about" onclick="scrollToSection(this)">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#process-flow" onclick="scrollToSection(this)">Process Flow</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#benefits" onclick="scrollToSection(this)">Registration Benefits</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#requirements" onclick="scrollToSection(this)">Requirements</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#advantages-disadvantages" onclick="scrollToSection(this)">Advantages & Disadvantages</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#faq" onclick="scrollToSection(this)">FAQ's</a>
+                    </li>
+                    </ul>
+                </div>
             </div>
         </nav>
 
@@ -138,7 +139,7 @@
 
         <!-- About section starts here -->
     
-        <div class="container my-5 fs-5" id="about" >
+        <div class="container mt-5 fs-5" id="about">
             <h2 class="mb-3">How it works?</h2>
             <p>As per the Companies Act of 2013, a minimum of two members are required for the start-up along with the certificate of incorporation. 
                 The maximum number of members a company can have is 200 and the upper limit for shareholders are limited to 50. The shares of the company
@@ -148,7 +149,6 @@
         </div>
 
         <!-- About section ends here -->
-
 
         <div class="container fs-5 mt-5">
         <h2 class="mb-3">What all you can do under Private Company Registration?</h2>
@@ -166,7 +166,7 @@
 
         <!-- Process flow starts here -->
 
-        <div id="process-flow" class="container mt-5 fs-5"  >
+        <div class="container mt-5 fs-5" id="process-flow">
             <h2 class="mb-3">Registration process flow</h2>
             <p class="mb-5">With Classy Legal, it is refreshingly simple to register your company online. Here’s what you need to do:</p>
             <div class="row gap-4 d-flex justify-content-evenly mt-4" >
@@ -216,7 +216,7 @@
 
         <!-- Private Limited Company Registration Benefits starts here -->
 
-        <div id="benefits" class="container my-5 pt-4 fs-5" >
+        <div id="benefits" class="container mt-5 fs-5" >
             <h2>Private Limited Company Registration Benefits</h2>
                 <p class="mt-3">Starting up a Private Limited Company has its down gains. Below are the benefits a private company enjoys:</p>
                 <ul class="mt-4 fs-5">
@@ -297,7 +297,7 @@
 
         <!-- Advantages & Disadvantages section starts here -->
 
-        <div class="container my-5 fs-5">
+        <div class="container my-5 fs-5" id="advantages-disadvantages">
                 <h2 class="my-4 py-2 mb-4 ">Advantages & Disadvantages of Private Company Registration</h2>
                 <h4 class="fw-normal mb-3 fw-bold">Advantages of Pvt Co. Registration</h4>
                     <ol>
@@ -318,7 +318,7 @@
 
         <!-- FAQ's section starts here -->
 
-        <div class="container my-5">
+        <div class="container mt-5" id="faq">
             <h2 class="mb-4">Frequently Asked Questions</h2>
             <div class="accordion accordion-flush">
                 <div class="accordion-item">
@@ -440,7 +440,7 @@
 
         <!-- More Services and Doubt section starts here -->
 
-        <div class="container mt-4">
+        <div class="container mt-5">
             <div class="row">
                 <div class="col-md-4">
                     <div class="card mb-4 border-primary round-card p-2">
