@@ -22,13 +22,13 @@
         
         <!-- Actual page content starts from here -->
 
-        <div class="container mt-5 mb-5"  id="fontdemo">
+        <div class="container my-5">
             <div class="row align-items-center g-lg-5">
-                <div class="col-lg-8 text-center text-lg-start ">
+                <div class="col-lg-8 text-center text-lg-start fs-5">
                     <h2 class="display-5 fw-bold mb-5">Private Limited Company Registration</h2>
-                    <p class="fs-5">A private limited company, as the term suggests, is a business organisation which is privately run and is owned by shareholders. 
+                    <p>A private limited company, as the term suggests, is a business organisation which is privately run and is owned by shareholders. 
                         Directors carry the responsibilities of running the company but holding the post of a director in a Private Limited Company doesn’t mean he or 
-                        she is self-employed or the sole owner; but they are also the employees in the company. </p>
+                        she is self-employed or the sole owner; but they are also the employees in the company. </p>                
                         <ul>
                             <li>Main nbullet points</li>
                             <li>Quality Timly cost effective </li>
@@ -75,9 +75,6 @@
                 </div>
             </div>
         </div>
-
-        <!-- Actual page content ends from here -->
-
 
 
         <!-- Services section starts here -->
